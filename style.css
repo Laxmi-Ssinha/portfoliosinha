@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top
+ul {
+  width: 100%;
+  
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 10px;
+    overflow-x: hidden;
+    background-color: rgb(178, 238, 99);
+    position: fixed;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    width: 100%;
+    display: block;
+    color: rgb(24, 27, 26);
+    font-size: larger;
+    text-align: center;
+    padding: 6px 8px;
+    margin-left: 40px;
+    margin-top: 0px;
+    min-height: fit-content;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: rgb(144, 170, 30);
+    
+  }
+    
+    
+    .split {
+      height:50%;
+      width:100%;
+      top: 62px;
+      overflow: hidden;
+      padding-top: 20px;
+    }
+    .left {
+      left: 0;
+      background-image: linear-gradient(to right, rgb(180, 248, 159),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+          
+    }
+    
+      .centered {
+        position: absolute;
+        top: 50%;
+        text-align: left;
+        text-decoration:double;
+        text-shadow: 1px 1.5px grey; 
+      }
+    
+
+    
+    .right {
+      right: 0;
+      background-image: linear-gradient(to right, rgb(237, 252, 104),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+      
+    }
+.pic {
+  margin-left: 30%;
+  padding-top: 0%;
+  top: 100px;
+}
+
+.bich {
+  margin-top: 40%;
+  padding:0px;
+  margin:0px;
+  height:100%;
+  width: 100%;
+  min-height:100%;
+  background-image: linear-gradient(to right, rgb(237, 252, 104),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+  position: absolute;
+}
+p {
+  text-align: center;
+  margin-top: 2%;
+}
+.part1 { background-image: linear-gradient(to right, rgb(237, 252, 104),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+  width:50%; height:50%; float:left}
+.part2 { background-image: linear-gradient(to right, rgb(237, 252, 104),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+
+  width:50%; height:50%; float:left}
+.part3 { background-image: linear-gradient(to right, rgb(237, 252, 104),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+
+   width:50%; height:50%; float:left}    
+.part4 { background-image: linear-gradient(to right, rgb(237, 252, 104),rgb(193, 253, 114),rgb(252, 252, 130),rgb(159, 252, 159),rgb(226, 250, 93),rgb(217, 248, 180),rgb(237, 252, 104));
+
+   width:50%; height:50%; float:left}
+   img {
+    border-radius: 10px;
+   }
+.one {
+  width: 70%;
+  height: 70%;
+  margin-left:15%;
+  margin-top: 6%;
+  background-image: url("ONEE.jpg");
+  border-radius: 10px;
+}
+.two {
+  width: 70%;
+  height: 70%;
+  margin-left:15%;
+  margin-top: 6%;
+  background-image: url("two.jpg");
+  border-radius: 10px;
+}
+.three {
+  width: 70%;
+  height: 70%;
+  margin-left:15%;
+  margin-top: 6%;
+  background-image: url("three.jpg");
+  border-radius: 10px;
+}
+.four {
+  width: 70%;
+  height: 70%;
+  margin-left:15%;
+  margin-top: 6%;
+  background-image: url("four.jpg");
+  border-radius: 10px;
+}
+.lower {
+  height: 50%;
+  margin-top:5%;
+ margin: 5%;
+ margin-left: 0%;
+ margin-right: 0%;
+ padding-top:55%;
+ background-color: rgb(213, 255, 149);
+ 
+}
+.text {
+text-align: left;
+
+}
+.stack{
+ margin-top: -4%;
+  padding-top: 6%;
+  justify-content:left;
+  align-items: left;
+  height:30vh ;
+  background-color: rgba(140, 255, 136, 0.6);
+  padding: 50px;
+  display: flex;
+  
+}
+.last {
+ margin-left: 50%;
+  font-size: xx-large;
+}
+
+.footer {
+  height:50%;
+      width:100%;
+      background-color: rgb(197, 255, 110);
+      overflow: hidden;
+      padding-top: 20px;
+
+}
+.Fleft {
+  text-align: center;
+  padding: 0%;
+  background-color: rgb(215, 253, 156);
+}
+.p {
+  margin-left: 0%;
+  text-align: center;
+}
+/*.Fryt {
+  background-color: rgb(197, 255, 110);
+  margin-left: 80%;
+  margin-top: 0%;
+  margin-right: 0%;
+  
+}
